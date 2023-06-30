@@ -38,12 +38,24 @@ h1 {
   font-size: xx-large;
 }
 
-main div:first-of-type {
+main div.sfondo {
   background-image: url(../images/banner.jpg);
   padding: 150px 150px;
   background-position: center;
   background-attachment: fixed;
   background-size: contain;
+  text-align: center;
+}
+
+div.test {
+  display: inline-block;
+}
+div.child {
+  max-width: 50%;
+  padding-left: 0px;
+}
+
+div.child-image {
   text-align: center;
 }
 
@@ -69,8 +81,7 @@ input {
 
 #introduction img {
   border-radius: 50%;
-  width: 40%;
-  margin: 20px auto;
+  width: 80%;
 }
 
 /* #introduction h3,
@@ -113,17 +124,18 @@ article {
 }
 
 article img {
-  width: 25%;
+  width: 100%;
   padding-top: 50px;
 }
 
 article h3,
 p {
-  padding: 20px;
+  padding: 0px;
 }
 
 .big-div {
   display: inline-block;
+  max-width: 33%;
 }
 
 .border {
@@ -133,7 +145,6 @@ p {
   border-top: none;
   border-radius: 5px;
   text-align: center;
-  width: 25%;
 }
 /* .articles {
   border-style: solid;
