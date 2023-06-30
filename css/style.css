@@ -12,7 +12,9 @@ body {
   width: auto;
   color: #393d41;
   font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
   text-align: center;
+  line-height: 1.65rem;
 }
 
 header {
@@ -29,8 +31,125 @@ h2,
 h3 {
   font-family: "Montserrat", sans-serif;
   color: #25a2c3;
+  line-height: 1.5rem;
 }
 
 h1 {
   font-size: xx-large;
+}
+
+main div:first-of-type {
+  background-image: url(../images/banner.jpg);
+  padding: 30px 30px;
+}
+
+main div p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+input {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  background-color: #f04c2f;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 15px 30px;
+}
+
+#introduction {
+  padding: 50px 30px;
+}
+
+#introduction img {
+  border-radius: 50%;
+  width: 90%;
+  margin: 20px auto;
+}
+
+#recensioni {
+  background-color: #e22d0e;
+  color: white;
+  padding: 50px 30px;
+}
+
+#recensioni h2 {
+  color: white;
+  font-size: xx-large;
+}
+
+#recensioni p:first-of-type {
+  padding-top: 40px;
+  font-style: italic;
+  font-size: smaller;
+}
+
+#recensioni p:nth-of-type(2) {
+  padding-bottom: 0px;
+}
+
+#recensioni p:nth-of-type(3) {
+  padding-top: 3px;
+  font-size: small;
+}
+
+article {
+  padding: 50px 10px;
+}
+
+article img {
+  width: 100%;
+}
+
+article h3,
+p {
+  padding: 20px;
+}
+
+article img {
+  padding-top: 50px;
+}
+
+.border {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dee1e3;
+  border-top: none;
+  border-radius: 5px;
+}
+/* .articles {
+  border-style: solid;
+  border: #dee1e3;
+  border-width: initial;
+} */
+
+footer {
+  padding: 50px;
+  background-color: #25a2c3;
+  color: #c8e7f0;
+  font-size: smaller;
+}
+
+footer h2 {
+  color: white;
+  font-size: x-large;
+  padding-bottom: 20px;
+}
+
+footer a {
+  color: #c8e7f0;
+}
+
+footer i:nth-of-type(3) {
+  padding-bottom: 20px;
+}
+
+footer hr {
+  width: 70%;
+}
+
+footer div {
+  padding-top: 15px;
+  font-size: smaller;
 }
