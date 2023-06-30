@@ -1,1 +1,36 @@
 /* Your styles here */
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  width: auto;
+  color: #393d41;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+header {
+  background-color: black;
+}
+
+header img {
+  width: 150px;
+  padding: 40px 20px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #25a2c3;
+}
+
+h1 {
+  font-size: xx-large;
+}
