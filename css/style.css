@@ -40,6 +40,8 @@ h1 {
 
 main div:first-of-type {
   background-image: url(../images/banner.jpg);
+  background-size: cover;
+  background-position: center;
   padding: 30px 30px;
 }
 

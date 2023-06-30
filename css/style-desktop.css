@@ -1,0 +1,173 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  width: auto;
+  color: #393d41;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.2rem;
+  /* text-align: center; */
+  line-height: 1.65rem;
+}
+
+header {
+  background-color: black;
+  text-align: left;
+}
+
+header img {
+  width: 150px;
+  padding: 20px 20px;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: #25a2c3;
+  line-height: 1.5rem;
+}
+
+h1 {
+  font-size: xx-large;
+}
+
+main div:first-of-type {
+  background-image: url(../images/banner.jpg);
+  padding: 150px 150px;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: contain;
+  text-align: center;
+}
+
+main div p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+input {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  background-color: #f04c2f;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 15px 30px;
+}
+
+#introduction {
+  display: inline-block;
+  padding: 50px 30px;
+}
+
+#introduction img {
+  border-radius: 50%;
+  width: 40%;
+  margin: 20px auto;
+}
+
+/* #introduction h3,
+p {
+  text-align: right;
+} */
+
+#recensioni {
+  background-color: #e22d0e;
+  color: white;
+  padding: 50px 30px;
+  text-align: center;
+}
+
+#recensioni h2 {
+  color: white;
+  font-size: large;
+}
+
+#recensioni p:first-of-type {
+  padding-top: 20px;
+  padding-bottom: 0px;
+  font-style: italic;
+  font-size: smaller;
+}
+
+#recensioni p:nth-of-type(2) {
+  padding-bottom: 0px;
+  font-size: small;
+}
+
+#recensioni p:nth-of-type(3) {
+  padding-top: 0px;
+  font-size: x-small;
+}
+
+article {
+  display: inline-block;
+  padding: 50px 10px;
+}
+
+article img {
+  width: 25%;
+  padding-top: 50px;
+}
+
+article h3,
+p {
+  padding: 20px;
+}
+
+.big-div {
+  display: inline-block;
+}
+
+.border {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #dee1e3;
+  border-top: none;
+  border-radius: 5px;
+  text-align: center;
+  width: 25%;
+}
+/* .articles {
+  border-style: solid;
+  border: #dee1e3;
+  border-width: initial;
+} */
+
+footer {
+  padding: 50px;
+  background-color: #25a2c3;
+  color: #c8e7f0;
+  font-size: smaller;
+  text-align: center;
+}
+
+footer h2 {
+  color: white;
+  font-size: x-large;
+  padding-bottom: 20px;
+}
+
+footer a {
+  color: #c8e7f0;
+}
+
+footer i:nth-of-type(3) {
+  padding-bottom: 20px;
+}
+
+footer hr {
+  width: 30%;
+}
+
+footer div {
+  padding-top: 15px;
+  font-size: smaller;
+}
